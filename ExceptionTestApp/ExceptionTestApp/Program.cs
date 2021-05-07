@@ -61,7 +61,7 @@ namespace ExceptionTestApp
             }
             finally
             {
-
+                Console.WriteLine("finally_언제든지 실행됨");
             }
             Console.WriteLine("프로그램 종료");
 
