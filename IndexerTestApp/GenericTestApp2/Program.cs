@@ -1,25 +1,28 @@
 ﻿using System;
 
-namespace GenericTestApp
+namespace GenericTestApp2
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Generic 사용");
+            Console.WriteLine();
+
             #region Int
             // int 배열을 int 배열로 복사
-            int[] sourceInt = { 1, 2, 3, 4, 5};
+            int[] sourceInt = { 1, 2, 3, 4, 5 };
             int[] targetInt = new int[sourceInt.Length];    // 5짜리 int 배열 {0,0,0,0,0}
-            
-            Console.WriteLine("복사전 targetInt");           
+
+            Console.WriteLine("복사전 targetInt");
             foreach (var item in targetInt)
             {
                 Console.Write($"{item}\t");
             }
             Console.WriteLine();
 
-          
-            CopyArray(sourceInt, targetInt);
+
+            CopyArray<int>(sourceInt, targetInt);
 
 
             Console.WriteLine("복사후 targetInt");
@@ -41,7 +44,7 @@ namespace GenericTestApp
             Console.WriteLine();
 
 
-            CopyArray(sourceFloat, targetFloat);
+            CopyArray<float>(sourceFloat, targetFloat);
 
 
             Console.WriteLine("복사후 targerFloat");
@@ -63,7 +66,7 @@ namespace GenericTestApp
             Console.WriteLine();
 
 
-            CopyArray(sourceString, targetString);
+            CopyArray<string>(sourceString, targetString);
 
 
             Console.WriteLine("복사후 targerString");
@@ -75,31 +78,13 @@ namespace GenericTestApp
             #endregion
         }
 
-        private static void CopyArray(string[] source, string[] target) // String
+        // 일반화 메서드 통일
+        private static void CopyArray<타입>(타입[] source, 타입[] target) 
         {
             for (int i = 0; i < source.Length; i++)
             {
                 target[i] = source[i];
-
             }
-        }
-
-        private static void CopyArray(float[] source, float[] target) // Float
-        {
-            for (int i = 0; i < source.Length; i++)
-            {
-                target[i] = source[i];
-
-            }
-        }
-
-        private static void CopyArray(int[] source, int[] target)   // Int
-        {
-            for (int i = 0; i < source.Length; i++)
-            {
-                target[i] = source[i];
-
-            }
-        }
+        }   // < > 안에 꼭 T가 아니어도 돼
     }
 }
