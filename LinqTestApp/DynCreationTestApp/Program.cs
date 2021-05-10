@@ -6,7 +6,7 @@ namespace DynCreationTestApp
     class Profile
     {
         public string Name { get; set; }
-        public string Phonenumber { get; set; }
+        public string Phonenumber { get; set; } 
         public void Print() { Console.WriteLine($"{ Name}, { Phonenumber} "); }
     }
     class Program
