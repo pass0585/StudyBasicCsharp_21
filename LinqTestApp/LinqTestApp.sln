@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDirectoryTestApp", "Fil
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReadingTestApp", "FileReadingTestApp\FileReadingTestApp.csproj", "{6AD5F4B9-5734-4AD6-ADE8-3DFA5252CD45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLoggerTestApp", "NLoggerTestApp\NLoggerTestApp.csproj", "{FB7E8DDF-632A-433A-B875-A56BE0E87C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6AD5F4B9-5734-4AD6-ADE8-3DFA5252CD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AD5F4B9-5734-4AD6-ADE8-3DFA5252CD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AD5F4B9-5734-4AD6-ADE8-3DFA5252CD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7E8DDF-632A-433A-B875-A56BE0E87C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7E8DDF-632A-433A-B875-A56BE0E87C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7E8DDF-632A-433A-B875-A56BE0E87C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7E8DDF-632A-433A-B875-A56BE0E87C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

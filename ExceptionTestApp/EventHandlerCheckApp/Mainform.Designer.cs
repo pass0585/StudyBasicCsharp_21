@@ -90,6 +90,7 @@ namespace EventHandlerCheckApp
             this.Controls.Add(this.label1);
             this.Name = "Mainform";
             this.Text = "이벤트확인앱";
+            this.Load += new System.EventHandler(this.Mainform_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
