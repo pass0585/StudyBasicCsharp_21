@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31220.234
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicThreadTestApp", "BasicThreadTestApp\BasicThreadTestApp.csproj", "{97D7390F-36D1-4492-9029-C6846386AA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformThreadApp", "WinformThreadApp\WinformThreadApp.csproj", "{37BC0620-533B-4C22-B45E-8310DFD7CEEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97D7390F-36D1-4492-9029-C6846386AA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D7390F-36D1-4492-9029-C6846386AA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D7390F-36D1-4492-9029-C6846386AA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D7390F-36D1-4492-9029-C6846386AA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BC0620-533B-4C22-B45E-8310DFD7CEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BC0620-533B-4C22-B45E-8310DFD7CEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BC0620-533B-4C22-B45E-8310DFD7CEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BC0620-533B-4C22-B45E-8310DFD7CEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABF62977-C145-4F4E-8461-6576B2F0D4B0}
+	EndGlobalSection
+EndGlobal
